@@ -11,3 +11,23 @@ h2{
     scroll-margin-top: 70px;
     text-align: center;
 }
+
+#btnWhatsApp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+    background-color: #00CD54;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+    
+    #btnWhatsApp:hover{
+        bottom: 38px;
+        transition: 0.5s;
+    }
